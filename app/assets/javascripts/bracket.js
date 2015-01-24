@@ -6,4 +6,8 @@ angular.module('bracketGenApp', ["ngResource"])
     {name: "Bill"}
   ]
 
+  $scope.addEntry = function(entry){
+    $scope.entries.push({name: entry})
+  }
+
 }]);

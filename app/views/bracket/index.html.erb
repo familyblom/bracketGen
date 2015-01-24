@@ -1,8 +1,9 @@
-<h1>Bracket#index</h1>
+<h1>Creat a new bracket</h1>
 <div ng-controller="BracketController">
-  <form>
-  <input type="text" ng-model="player.name">
-<!--   {{player.name}} -->
+  <form ng-submit="addEntry(newEntry)">
+  <input type="text" ng-model="newEntry" />
+  {{newEntry}}
+  <input type="submit" value="Add" />
   </form>
   <ul>
     <li ng-repeat="entry in entries">
