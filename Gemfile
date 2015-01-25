@@ -35,6 +35,9 @@ gem 'awesome_print'
 gem 'faker'
 gem 'populator'
 gem 'twitter-bootstrap-rails'
+gem "therubyracer"
+gem "less-rails"
+gem "devise"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
